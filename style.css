@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(15 94 123);
+    width: 80%;
+    height: 70%;
+    margin-left: 140px;
+    
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#res{
+    background-color: lightgray;
+    border: solid 1px #000;
+    height: 237px;
+    font-size: 20px;
+    width: 51%;
+    margin-top: 31px;
+    margin-left: 304px;
+}
+
+.lgreen{
+    background: rgb(39, 121, 222);
+    width: 25%;
+    font-size: 18px;
+    margin-left: 207px;
+    margin-top: 38px;
+    float: left;
+    color: brown;
+    height: 36px;
+}
+.upper>.dgreen{
+    background-color: rgb(101, 135, 166);
+    width: 25%;
+    margin-top: 28px;
+    margin-left: 208px;
+    font-size: 18px;
+    float: left;
+    color: white;
+    height: 36px;
+}
+.lower>.operator{
+    background-color: rgb(7, 185, 230);
+    width: 25%;
+    font-size: 18px;
+    margin-top: 28px;
+    margin-left: 208px;   
+    float: left;
+    color: white;
+    height: 36px;
+}
