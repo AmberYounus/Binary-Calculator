@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Binary Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div id="res" maxlength="8"></div>
-            <div class="btn" id="btns">
-
+      <div id="res" maxlength="8"></div>
+      <div class="btn" id="btns">
         <div class="upper">
-            <button class="lgreen" id="btn0" onclick="key('0')">0</button>
-            <button class="lgreen" id="btn1" onclick="key('1')">1</button>
-            <button class="dgreen" id="btnClr" onclick="cl()">C</button>
-            <button class="dgreen" id="btnEql" onclick="operatorFunx()">=</button>       
+          <button class="lgreen" id="btn0" onclick="key('0')">0</button>
+          <button class="lgreen" id="btn1" onclick="key('1')">1</button>
+          <button class="dgreen" id="btnClr" onclick="clr()">C</button>
+          <button class="dgreen" id="btnEql" onclick="operatorFunx()">=</button>
         </div>
         <div class="lower">
-            <button class="operator" id="btnSum" onclick="key('+')">+</button>
-            <button class="operator" id="btnSub" onclick="key('-')">-</button>
-            <button class="operator" id="btnMul" onclick="key('*')">*</button>
-            <button class="operator" id="btnDiv" onclick="key('/')">/</button>       
+          <button class="operator" id="btnSum" onclick="key('+')">+</button>
+          <button class="operator" id="btnSub" onclick="key('-')">-</button>
+          <button class="operator" id="btnMul" onclick="key('*')">*</button>
+          <button class="operator" id="btnDiv" onclick="key('/')">/</button>
         </div>
-        
-        </div>
+      </div>
     </div>
-</body>
-<script src="app.js" type="text/javascript"></script>
+  </body>
+  <script src="app.js" type="text/javascript"></script>
 </html>
